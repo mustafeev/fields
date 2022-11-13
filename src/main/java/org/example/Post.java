@@ -10,9 +10,4 @@ public class Post {
 
 }
 
-public class FormDate {
-    public int birthdayday;
-    public int birthdaymonth;
-    public int birthdayyear;
-}
 

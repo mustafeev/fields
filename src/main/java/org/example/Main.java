@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.concurrent.atomic.AtomicReference;
+
 public class Main {
     public static void main(String[] args) {
         Post post = new Post();
@@ -10,10 +12,10 @@ public class Main {
         post.surname = "Иванов";
         post.subscription = "true";
 
-        formDate post = new formDate();
-        post.birthdayday = 13;
-        post.birthdaymonth = 6;
-        post.birthdayyear = 1999;
+        FormDate post= new FormDate();
+        post.birthDay = 13.;
+        post.birthMonth = 6.;
+        post.birthYear = 1999.;
     }
 
 
