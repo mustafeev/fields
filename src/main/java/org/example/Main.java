@@ -12,11 +12,10 @@ public class Main {
         post.surname = "Иванов";
         post.subscription = "true";
 
-        FormDate post= new FormDate();
-        post.birthDay = 13.;
-        post.birthMonth = 6.;
-        post.birthYear = 1999.;
+        FormDate postm = new FormDate();
+        postm.birthDay = 13;
+        postm.birthMonth = 6;
+        postm.birthYear = 1999;
     }
-
 
 }
